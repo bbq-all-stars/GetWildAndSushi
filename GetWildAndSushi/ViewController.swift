@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         
         view.addSubview(player)
         
-        player.load(withVideoId: "lQPorlJ-AUo")
+        player.load(withVideoId: "LgBxze0ye94")
         
         if (WCSession.isSupported()) {
             let session = WCSession.default()
