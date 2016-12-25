@@ -28,12 +28,6 @@ class InterfaceController: WKInterfaceController {
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
         
-        if WCSession.isSupported() {
-            let session = WCSession.default()
-            session.delegate = self
-            session.activate()
-        }
-        
         sushi.setImageNamed("sushi")
         
         sushi.startAnimatingWithImages(in: NSRange(location: 1, length: 36), duration: 1, repeatCount: -1)
@@ -41,8 +35,13 @@ class InterfaceController: WKInterfaceController {
     }
     
     override func willActivate() {
-        // This method is called when watch view controller is about to be visible to user
         super.willActivate()
+        
+        if WCSession.isSupported() {
+            let session = WCSession.default()
+            session.delegate = self
+            session.activate()
+        }
     }
     
     override func didDeactivate() {
