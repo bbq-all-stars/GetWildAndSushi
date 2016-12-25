@@ -1,0 +1,6 @@
+framework module Pods_GetWildAndSushi {
+  umbrella header "Pods-GetWildAndSushi-umbrella.h"
+
+  export *
+  module * { export * }
+}

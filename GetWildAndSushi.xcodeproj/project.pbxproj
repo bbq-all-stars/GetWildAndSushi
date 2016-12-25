@@ -1,0 +1,1136 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12AC4D23E58CA98094767602 /* Pods_GetWildAndSushi_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA7D2002DD2F9B4166598250 /* Pods_GetWildAndSushi_WatchKit_App.framework */; };
+		24AEA43B1E0B78B600273FEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AEA43A1E0B78B600273FEB /* AppDelegate.swift */; };
+		24AEA43D1E0B78B600273FEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AEA43C1E0B78B600273FEB /* ViewController.swift */; };
+		24AEA4401E0B78B600273FEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24AEA43E1E0B78B600273FEB /* Main.storyboard */; };
+		24AEA4421E0B78B600273FEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24AEA4411E0B78B600273FEB /* Assets.xcassets */; };
+		24AEA4451E0B78B600273FEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24AEA4431E0B78B600273FEB /* LaunchScreen.storyboard */; };
+		24AEA4501E0B78B600273FEB /* GetWildAndSushiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AEA44F1E0B78B600273FEB /* GetWildAndSushiTests.swift */; };
+		24AEA45B1E0B78B600273FEB /* GetWildAndSushiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AEA45A1E0B78B600273FEB /* GetWildAndSushiUITests.swift */; };
+		24AEA4601E0B78B600273FEB /* GetWildAndSushi WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 24AEA45F1E0B78B600273FEB /* GetWildAndSushi WatchKit App.app */; };
+		24AEA4661E0B78B600273FEB /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24AEA4641E0B78B600273FEB /* Interface.storyboard */; };
+		24AEA4681E0B78B600273FEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24AEA4671E0B78B600273FEB /* Assets.xcassets */; };
+		24AEA46F1E0B78B700273FEB /* GetWildAndSushi WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 24AEA46E1E0B78B700273FEB /* GetWildAndSushi WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		24AEA4761E0B78B700273FEB /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AEA4751E0B78B700273FEB /* InterfaceController.swift */; };
+		24AEA4781E0B78B700273FEB /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AEA4771E0B78B700273FEB /* ExtensionDelegate.swift */; };
+		24AEA47A1E0B78B700273FEB /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AEA4791E0B78B700273FEB /* NotificationController.swift */; };
+		24AEA47C1E0B78B700273FEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24AEA47B1E0B78B700273FEB /* Assets.xcassets */; };
+		3B5CEFFBB473A2DD2823E2C0 /* Pods_GetWildAndSushi_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C0D0C33C989BC958013C81C /* Pods_GetWildAndSushi_WatchKit_Extension.framework */; };
+		4D3669F9FB503830E75448D7 /* Pods_GetWildAndSushi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 579333FF35D1F07BC641C328 /* Pods_GetWildAndSushi.framework */; };
+		6D6911A5E8941AA1AD36182C /* Pods_GetWildAndSushiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2243FED6566CF2A903DEE06B /* Pods_GetWildAndSushiUITests.framework */; };
+		DA64E0117847511AE1B4AA33 /* Pods_GetWildAndSushiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91F65B8F27221A331B016C3A /* Pods_GetWildAndSushiTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24AEA44C1E0B78B600273FEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24AEA42F1E0B78B600273FEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24AEA4361E0B78B600273FEB;
+			remoteInfo = GetWildAndSushi;
+		};
+		24AEA4571E0B78B600273FEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24AEA42F1E0B78B600273FEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24AEA4361E0B78B600273FEB;
+			remoteInfo = GetWildAndSushi;
+		};
+		24AEA4611E0B78B600273FEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24AEA42F1E0B78B600273FEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24AEA45E1E0B78B600273FEB;
+			remoteInfo = "GetWildAndSushi WatchKit App";
+		};
+		24AEA4701E0B78B700273FEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24AEA42F1E0B78B600273FEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24AEA46D1E0B78B700273FEB;
+			remoteInfo = "GetWildAndSushi WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		24AEA4831E0B78B700273FEB /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				24AEA46F1E0B78B700273FEB /* GetWildAndSushi WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24AEA4871E0B78B700273FEB /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				24AEA4601E0B78B600273FEB /* GetWildAndSushi WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0C0D0C33C989BC958013C81C /* Pods_GetWildAndSushi_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GetWildAndSushi_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		175DA9F9A2F6CA57BAD46927 /* Pods-GetWildAndSushi WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetWildAndSushi WatchKit Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GetWildAndSushi WatchKit Extension/Pods-GetWildAndSushi WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		2243FED6566CF2A903DEE06B /* Pods_GetWildAndSushiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GetWildAndSushiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		241E9ADC1E0EE14F0063AF9D /* YouTubePlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YouTubePlayer.framework; path = Carthage/Build/iOS/YouTubePlayer.framework; sourceTree = "<group>"; };
+		24AEA4371E0B78B600273FEB /* GetWildAndSushi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetWildAndSushi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24AEA43A1E0B78B600273FEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		24AEA43C1E0B78B600273FEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		24AEA43F1E0B78B600273FEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24AEA4411E0B78B600273FEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24AEA4441E0B78B600273FEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24AEA4461E0B78B600273FEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24AEA44B1E0B78B600273FEB /* GetWildAndSushiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetWildAndSushiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24AEA44F1E0B78B600273FEB /* GetWildAndSushiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetWildAndSushiTests.swift; sourceTree = "<group>"; };
+		24AEA4511E0B78B600273FEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24AEA4561E0B78B600273FEB /* GetWildAndSushiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetWildAndSushiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24AEA45A1E0B78B600273FEB /* GetWildAndSushiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetWildAndSushiUITests.swift; sourceTree = "<group>"; };
+		24AEA45C1E0B78B600273FEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24AEA45F1E0B78B600273FEB /* GetWildAndSushi WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GetWildAndSushi WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24AEA4651E0B78B600273FEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		24AEA4671E0B78B600273FEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24AEA4691E0B78B600273FEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24AEA46E1E0B78B700273FEB /* GetWildAndSushi WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "GetWildAndSushi WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24AEA4741E0B78B700273FEB /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		24AEA4751E0B78B700273FEB /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		24AEA4771E0B78B700273FEB /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		24AEA4791E0B78B700273FEB /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		24AEA47B1E0B78B700273FEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24AEA47D1E0B78B700273FEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24FF38FE1E0C1CE1008A7852 /* XCDYouTubeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCDYouTubeKit.framework; path = Carthage/Build/iOS/XCDYouTubeKit.framework; sourceTree = "<group>"; };
+		2ECF98AC62530E07CABF06B8 /* Pods-GetWildAndSushiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetWildAndSushiTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GetWildAndSushiTests/Pods-GetWildAndSushiTests.release.xcconfig"; sourceTree = "<group>"; };
+		3432C00C3D70D5EA40DC7C2D /* Pods-GetWildAndSushiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetWildAndSushiUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GetWildAndSushiUITests/Pods-GetWildAndSushiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4D352BB5AC653E155D40A3BB /* Pods-GetWildAndSushi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetWildAndSushi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GetWildAndSushi/Pods-GetWildAndSushi.debug.xcconfig"; sourceTree = "<group>"; };
+		4F793E6E1513FA5B77628B6A /* Pods-GetWildAndSushiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetWildAndSushiUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GetWildAndSushiUITests/Pods-GetWildAndSushiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		579333FF35D1F07BC641C328 /* Pods_GetWildAndSushi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GetWildAndSushi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E0D996AD8924C909B249CCF /* Pods-GetWildAndSushiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetWildAndSushiTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GetWildAndSushiTests/Pods-GetWildAndSushiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7C4A725CA9CBC63E8F3958F2 /* Pods-GetWildAndSushi WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetWildAndSushi WatchKit App.release.xcconfig"; path = "Pods/Target Support Files/Pods-GetWildAndSushi WatchKit App/Pods-GetWildAndSushi WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		91F65B8F27221A331B016C3A /* Pods_GetWildAndSushiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GetWildAndSushiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C1141B2456D0A788DB10059 /* Pods-GetWildAndSushi WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetWildAndSushi WatchKit Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-GetWildAndSushi WatchKit Extension/Pods-GetWildAndSushi WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		D1DBC4BE3A77635009D08036 /* Pods-GetWildAndSushi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetWildAndSushi.release.xcconfig"; path = "Pods/Target Support Files/Pods-GetWildAndSushi/Pods-GetWildAndSushi.release.xcconfig"; sourceTree = "<group>"; };
+		DA7D2002DD2F9B4166598250 /* Pods_GetWildAndSushi_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GetWildAndSushi_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB953185722C66F4A3A973FA /* Pods-GetWildAndSushi WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetWildAndSushi WatchKit App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GetWildAndSushi WatchKit App/Pods-GetWildAndSushi WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24AEA4341E0B78B600273FEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D3669F9FB503830E75448D7 /* Pods_GetWildAndSushi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24AEA4481E0B78B600273FEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA64E0117847511AE1B4AA33 /* Pods_GetWildAndSushiTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24AEA4531E0B78B600273FEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D6911A5E8941AA1AD36182C /* Pods_GetWildAndSushiUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24AEA46B1E0B78B700273FEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B5CEFFBB473A2DD2823E2C0 /* Pods_GetWildAndSushi_WatchKit_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4FF6C014459B34D7BD6A6C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12AC4D23E58CA98094767602 /* Pods_GetWildAndSushi_WatchKit_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24AEA42E1E0B78B600273FEB = {
+			isa = PBXGroup;
+			children = (
+				24AEA4391E0B78B600273FEB /* GetWildAndSushi */,
+				24AEA44E1E0B78B600273FEB /* GetWildAndSushiTests */,
+				24AEA4591E0B78B600273FEB /* GetWildAndSushiUITests */,
+				24AEA4631E0B78B600273FEB /* GetWildAndSushi WatchKit App */,
+				24AEA4721E0B78B700273FEB /* GetWildAndSushi WatchKit Extension */,
+				24AEA4381E0B78B600273FEB /* Products */,
+				24FF38FD1E0C1CE1008A7852 /* Frameworks */,
+				2CF341408F27C391EF40E8BB /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		24AEA4381E0B78B600273FEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24AEA4371E0B78B600273FEB /* GetWildAndSushi.app */,
+				24AEA44B1E0B78B600273FEB /* GetWildAndSushiTests.xctest */,
+				24AEA4561E0B78B600273FEB /* GetWildAndSushiUITests.xctest */,
+				24AEA45F1E0B78B600273FEB /* GetWildAndSushi WatchKit App.app */,
+				24AEA46E1E0B78B700273FEB /* GetWildAndSushi WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24AEA4391E0B78B600273FEB /* GetWildAndSushi */ = {
+			isa = PBXGroup;
+			children = (
+				24AEA43A1E0B78B600273FEB /* AppDelegate.swift */,
+				24AEA43C1E0B78B600273FEB /* ViewController.swift */,
+				24AEA43E1E0B78B600273FEB /* Main.storyboard */,
+				24AEA4411E0B78B600273FEB /* Assets.xcassets */,
+				24AEA4431E0B78B600273FEB /* LaunchScreen.storyboard */,
+				24AEA4461E0B78B600273FEB /* Info.plist */,
+			);
+			path = GetWildAndSushi;
+			sourceTree = "<group>";
+		};
+		24AEA44E1E0B78B600273FEB /* GetWildAndSushiTests */ = {
+			isa = PBXGroup;
+			children = (
+				24AEA44F1E0B78B600273FEB /* GetWildAndSushiTests.swift */,
+				24AEA4511E0B78B600273FEB /* Info.plist */,
+			);
+			path = GetWildAndSushiTests;
+			sourceTree = "<group>";
+		};
+		24AEA4591E0B78B600273FEB /* GetWildAndSushiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				24AEA45A1E0B78B600273FEB /* GetWildAndSushiUITests.swift */,
+				24AEA45C1E0B78B600273FEB /* Info.plist */,
+			);
+			path = GetWildAndSushiUITests;
+			sourceTree = "<group>";
+		};
+		24AEA4631E0B78B600273FEB /* GetWildAndSushi WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				24AEA4641E0B78B600273FEB /* Interface.storyboard */,
+				24AEA4671E0B78B600273FEB /* Assets.xcassets */,
+				24AEA4691E0B78B600273FEB /* Info.plist */,
+			);
+			path = "GetWildAndSushi WatchKit App";
+			sourceTree = "<group>";
+		};
+		24AEA4721E0B78B700273FEB /* GetWildAndSushi WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				24AEA4751E0B78B700273FEB /* InterfaceController.swift */,
+				24AEA4771E0B78B700273FEB /* ExtensionDelegate.swift */,
+				24AEA4791E0B78B700273FEB /* NotificationController.swift */,
+				24AEA47B1E0B78B700273FEB /* Assets.xcassets */,
+				24AEA47D1E0B78B700273FEB /* Info.plist */,
+				24AEA4731E0B78B700273FEB /* Supporting Files */,
+			);
+			path = "GetWildAndSushi WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		24AEA4731E0B78B700273FEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24AEA4741E0B78B700273FEB /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		24FF38FD1E0C1CE1008A7852 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				241E9ADC1E0EE14F0063AF9D /* YouTubePlayer.framework */,
+				24FF38FE1E0C1CE1008A7852 /* XCDYouTubeKit.framework */,
+				579333FF35D1F07BC641C328 /* Pods_GetWildAndSushi.framework */,
+				DA7D2002DD2F9B4166598250 /* Pods_GetWildAndSushi_WatchKit_App.framework */,
+				0C0D0C33C989BC958013C81C /* Pods_GetWildAndSushi_WatchKit_Extension.framework */,
+				91F65B8F27221A331B016C3A /* Pods_GetWildAndSushiTests.framework */,
+				2243FED6566CF2A903DEE06B /* Pods_GetWildAndSushiUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2CF341408F27C391EF40E8BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D352BB5AC653E155D40A3BB /* Pods-GetWildAndSushi.debug.xcconfig */,
+				D1DBC4BE3A77635009D08036 /* Pods-GetWildAndSushi.release.xcconfig */,
+				DB953185722C66F4A3A973FA /* Pods-GetWildAndSushi WatchKit App.debug.xcconfig */,
+				7C4A725CA9CBC63E8F3958F2 /* Pods-GetWildAndSushi WatchKit App.release.xcconfig */,
+				175DA9F9A2F6CA57BAD46927 /* Pods-GetWildAndSushi WatchKit Extension.debug.xcconfig */,
+				9C1141B2456D0A788DB10059 /* Pods-GetWildAndSushi WatchKit Extension.release.xcconfig */,
+				5E0D996AD8924C909B249CCF /* Pods-GetWildAndSushiTests.debug.xcconfig */,
+				2ECF98AC62530E07CABF06B8 /* Pods-GetWildAndSushiTests.release.xcconfig */,
+				4F793E6E1513FA5B77628B6A /* Pods-GetWildAndSushiUITests.debug.xcconfig */,
+				3432C00C3D70D5EA40DC7C2D /* Pods-GetWildAndSushiUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24AEA4361E0B78B600273FEB /* GetWildAndSushi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24AEA4881E0B78B700273FEB /* Build configuration list for PBXNativeTarget "GetWildAndSushi" */;
+			buildPhases = (
+				5BDBCDFD39F79EA166349D07 /* [CP] Check Pods Manifest.lock */,
+				24AEA4331E0B78B600273FEB /* Sources */,
+				24AEA4341E0B78B600273FEB /* Frameworks */,
+				24AEA4351E0B78B600273FEB /* Resources */,
+				24AEA4871E0B78B700273FEB /* Embed Watch Content */,
+				45ECF494015721C57404A4F7 /* [CP] Embed Pods Frameworks */,
+				D6E8EE75931EE713189AD0FB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24AEA4621E0B78B600273FEB /* PBXTargetDependency */,
+			);
+			name = GetWildAndSushi;
+			productName = GetWildAndSushi;
+			productReference = 24AEA4371E0B78B600273FEB /* GetWildAndSushi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24AEA44A1E0B78B600273FEB /* GetWildAndSushiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24AEA48B1E0B78B700273FEB /* Build configuration list for PBXNativeTarget "GetWildAndSushiTests" */;
+			buildPhases = (
+				4B34E7521D3C5EF569D749C6 /* [CP] Check Pods Manifest.lock */,
+				24AEA4471E0B78B600273FEB /* Sources */,
+				24AEA4481E0B78B600273FEB /* Frameworks */,
+				24AEA4491E0B78B600273FEB /* Resources */,
+				73CBB5E33A1478D4DAFAFD4A /* [CP] Embed Pods Frameworks */,
+				345B5028ED7EA148BEA966C6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24AEA44D1E0B78B600273FEB /* PBXTargetDependency */,
+			);
+			name = GetWildAndSushiTests;
+			productName = GetWildAndSushiTests;
+			productReference = 24AEA44B1E0B78B600273FEB /* GetWildAndSushiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		24AEA4551E0B78B600273FEB /* GetWildAndSushiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24AEA48E1E0B78B700273FEB /* Build configuration list for PBXNativeTarget "GetWildAndSushiUITests" */;
+			buildPhases = (
+				90DC0C10CC836562BAD2A527 /* [CP] Check Pods Manifest.lock */,
+				24AEA4521E0B78B600273FEB /* Sources */,
+				24AEA4531E0B78B600273FEB /* Frameworks */,
+				24AEA4541E0B78B600273FEB /* Resources */,
+				D7F551D8AED42629321D5F52 /* [CP] Embed Pods Frameworks */,
+				BBDF4F799D5239C57F5BE9D5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24AEA4581E0B78B600273FEB /* PBXTargetDependency */,
+			);
+			name = GetWildAndSushiUITests;
+			productName = GetWildAndSushiUITests;
+			productReference = 24AEA4561E0B78B600273FEB /* GetWildAndSushiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		24AEA45E1E0B78B600273FEB /* GetWildAndSushi WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24AEA4841E0B78B700273FEB /* Build configuration list for PBXNativeTarget "GetWildAndSushi WatchKit App" */;
+			buildPhases = (
+				66F9C7A62795FA8F7AAD3C67 /* [CP] Check Pods Manifest.lock */,
+				24AEA45D1E0B78B600273FEB /* Resources */,
+				24AEA4831E0B78B700273FEB /* Embed App Extensions */,
+				D4FF6C014459B34D7BD6A6C2 /* Frameworks */,
+				4A88DB270A8CE408B768C1DF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24AEA4711E0B78B700273FEB /* PBXTargetDependency */,
+			);
+			name = "GetWildAndSushi WatchKit App";
+			productName = "GetWildAndSushi WatchKit App";
+			productReference = 24AEA45F1E0B78B600273FEB /* GetWildAndSushi WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		24AEA46D1E0B78B700273FEB /* GetWildAndSushi WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24AEA4801E0B78B700273FEB /* Build configuration list for PBXNativeTarget "GetWildAndSushi WatchKit Extension" */;
+			buildPhases = (
+				5AE30B68D5EB38636E3827A7 /* [CP] Check Pods Manifest.lock */,
+				24AEA46A1E0B78B700273FEB /* Sources */,
+				24AEA46B1E0B78B700273FEB /* Frameworks */,
+				24AEA46C1E0B78B700273FEB /* Resources */,
+				1E7AEDC448749F334BB3B672 /* [CP] Embed Pods Frameworks */,
+				B26273204CC1BA0EFBEF3E4C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GetWildAndSushi WatchKit Extension";
+			productName = "GetWildAndSushi WatchKit Extension";
+			productReference = 24AEA46E1E0B78B700273FEB /* GetWildAndSushi WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24AEA42F1E0B78B600273FEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Shun Tabata";
+				TargetAttributes = {
+					24AEA4361E0B78B600273FEB = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = WSVKR7X85C;
+						ProvisioningStyle = Automatic;
+					};
+					24AEA44A1E0B78B600273FEB = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = WSVKR7X85C;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 24AEA4361E0B78B600273FEB;
+					};
+					24AEA4551E0B78B600273FEB = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = WSVKR7X85C;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 24AEA4361E0B78B600273FEB;
+					};
+					24AEA45E1E0B78B600273FEB = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = WSVKR7X85C;
+						ProvisioningStyle = Automatic;
+					};
+					24AEA46D1E0B78B700273FEB = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = WSVKR7X85C;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 24AEA4321E0B78B600273FEB /* Build configuration list for PBXProject "GetWildAndSushi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24AEA42E1E0B78B600273FEB;
+			productRefGroup = 24AEA4381E0B78B600273FEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24AEA4361E0B78B600273FEB /* GetWildAndSushi */,
+				24AEA44A1E0B78B600273FEB /* GetWildAndSushiTests */,
+				24AEA4551E0B78B600273FEB /* GetWildAndSushiUITests */,
+				24AEA45E1E0B78B600273FEB /* GetWildAndSushi WatchKit App */,
+				24AEA46D1E0B78B700273FEB /* GetWildAndSushi WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24AEA4351E0B78B600273FEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24AEA4451E0B78B600273FEB /* LaunchScreen.storyboard in Resources */,
+				24AEA4421E0B78B600273FEB /* Assets.xcassets in Resources */,
+				24AEA4401E0B78B600273FEB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24AEA4491E0B78B600273FEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24AEA4541E0B78B600273FEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24AEA45D1E0B78B600273FEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24AEA4681E0B78B600273FEB /* Assets.xcassets in Resources */,
+				24AEA4661E0B78B600273FEB /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24AEA46C1E0B78B700273FEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24AEA47C1E0B78B700273FEB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E7AEDC448749F334BB3B672 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GetWildAndSushi WatchKit Extension/Pods-GetWildAndSushi WatchKit Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		345B5028ED7EA148BEA966C6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GetWildAndSushiTests/Pods-GetWildAndSushiTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45ECF494015721C57404A4F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GetWildAndSushi/Pods-GetWildAndSushi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A88DB270A8CE408B768C1DF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GetWildAndSushi WatchKit App/Pods-GetWildAndSushi WatchKit App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B34E7521D3C5EF569D749C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5AE30B68D5EB38636E3827A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5BDBCDFD39F79EA166349D07 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		66F9C7A62795FA8F7AAD3C67 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		73CBB5E33A1478D4DAFAFD4A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GetWildAndSushiTests/Pods-GetWildAndSushiTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90DC0C10CC836562BAD2A527 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B26273204CC1BA0EFBEF3E4C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GetWildAndSushi WatchKit Extension/Pods-GetWildAndSushi WatchKit Extension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBDF4F799D5239C57F5BE9D5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GetWildAndSushiUITests/Pods-GetWildAndSushiUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6E8EE75931EE713189AD0FB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GetWildAndSushi/Pods-GetWildAndSushi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7F551D8AED42629321D5F52 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GetWildAndSushiUITests/Pods-GetWildAndSushiUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24AEA4331E0B78B600273FEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24AEA43D1E0B78B600273FEB /* ViewController.swift in Sources */,
+				24AEA43B1E0B78B600273FEB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24AEA4471E0B78B600273FEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24AEA4501E0B78B600273FEB /* GetWildAndSushiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24AEA4521E0B78B600273FEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24AEA45B1E0B78B600273FEB /* GetWildAndSushiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24AEA46A1E0B78B700273FEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24AEA47A1E0B78B700273FEB /* NotificationController.swift in Sources */,
+				24AEA4781E0B78B700273FEB /* ExtensionDelegate.swift in Sources */,
+				24AEA4761E0B78B700273FEB /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24AEA44D1E0B78B600273FEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24AEA4361E0B78B600273FEB /* GetWildAndSushi */;
+			targetProxy = 24AEA44C1E0B78B600273FEB /* PBXContainerItemProxy */;
+		};
+		24AEA4581E0B78B600273FEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24AEA4361E0B78B600273FEB /* GetWildAndSushi */;
+			targetProxy = 24AEA4571E0B78B600273FEB /* PBXContainerItemProxy */;
+		};
+		24AEA4621E0B78B600273FEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24AEA45E1E0B78B600273FEB /* GetWildAndSushi WatchKit App */;
+			targetProxy = 24AEA4611E0B78B600273FEB /* PBXContainerItemProxy */;
+		};
+		24AEA4711E0B78B700273FEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24AEA46D1E0B78B700273FEB /* GetWildAndSushi WatchKit Extension */;
+			targetProxy = 24AEA4701E0B78B700273FEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		24AEA43E1E0B78B600273FEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24AEA43F1E0B78B600273FEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24AEA4431E0B78B600273FEB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24AEA4441E0B78B600273FEB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		24AEA4641E0B78B600273FEB /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24AEA4651E0B78B600273FEB /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24AEA47E1E0B78B700273FEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24AEA47F1E0B78B700273FEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24AEA4811E0B78B700273FEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 175DA9F9A2F6CA57BAD46927 /* Pods-GetWildAndSushi WatchKit Extension.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = WSVKR7X85C;
+				INFOPLIST_FILE = "GetWildAndSushi WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bbq-all-stars.GetWildAndSushi.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		24AEA4821E0B78B700273FEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C1141B2456D0A788DB10059 /* Pods-GetWildAndSushi WatchKit Extension.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = WSVKR7X85C;
+				INFOPLIST_FILE = "GetWildAndSushi WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bbq-all-stars.GetWildAndSushi.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		24AEA4851E0B78B700273FEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB953185722C66F4A3A973FA /* Pods-GetWildAndSushi WatchKit App.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WSVKR7X85C;
+				IBSC_MODULE = GetWildAndSushi_WatchKit_Extension;
+				INFOPLIST_FILE = "GetWildAndSushi WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bbq-all-stars.GetWildAndSushi.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		24AEA4861E0B78B700273FEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C4A725CA9CBC63E8F3958F2 /* Pods-GetWildAndSushi WatchKit App.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WSVKR7X85C;
+				IBSC_MODULE = GetWildAndSushi_WatchKit_Extension;
+				INFOPLIST_FILE = "GetWildAndSushi WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bbq-all-stars.GetWildAndSushi.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		24AEA4891E0B78B700273FEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D352BB5AC653E155D40A3BB /* Pods-GetWildAndSushi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WSVKR7X85C;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = GetWildAndSushi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bbq-all-stars.GetWildAndSushi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		24AEA48A1E0B78B700273FEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1DBC4BE3A77635009D08036 /* Pods-GetWildAndSushi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WSVKR7X85C;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = GetWildAndSushi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bbq-all-stars.GetWildAndSushi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		24AEA48C1E0B78B700273FEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E0D996AD8924C909B249CCF /* Pods-GetWildAndSushiTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WSVKR7X85C;
+				INFOPLIST_FILE = GetWildAndSushiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bbq-all-stars.GetWildAndSushiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetWildAndSushi.app/GetWildAndSushi";
+			};
+			name = Debug;
+		};
+		24AEA48D1E0B78B700273FEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ECF98AC62530E07CABF06B8 /* Pods-GetWildAndSushiTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WSVKR7X85C;
+				INFOPLIST_FILE = GetWildAndSushiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bbq-all-stars.GetWildAndSushiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetWildAndSushi.app/GetWildAndSushi";
+			};
+			name = Release;
+		};
+		24AEA48F1E0B78B700273FEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F793E6E1513FA5B77628B6A /* Pods-GetWildAndSushiUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = WSVKR7X85C;
+				INFOPLIST_FILE = GetWildAndSushiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bbq-all-stars.GetWildAndSushiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GetWildAndSushi;
+			};
+			name = Debug;
+		};
+		24AEA4901E0B78B700273FEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3432C00C3D70D5EA40DC7C2D /* Pods-GetWildAndSushiUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = WSVKR7X85C;
+				INFOPLIST_FILE = GetWildAndSushiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bbq-all-stars.GetWildAndSushiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GetWildAndSushi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24AEA4321E0B78B600273FEB /* Build configuration list for PBXProject "GetWildAndSushi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24AEA47E1E0B78B700273FEB /* Debug */,
+				24AEA47F1E0B78B700273FEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24AEA4801E0B78B700273FEB /* Build configuration list for PBXNativeTarget "GetWildAndSushi WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24AEA4811E0B78B700273FEB /* Debug */,
+				24AEA4821E0B78B700273FEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24AEA4841E0B78B700273FEB /* Build configuration list for PBXNativeTarget "GetWildAndSushi WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24AEA4851E0B78B700273FEB /* Debug */,
+				24AEA4861E0B78B700273FEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24AEA4881E0B78B700273FEB /* Build configuration list for PBXNativeTarget "GetWildAndSushi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24AEA4891E0B78B700273FEB /* Debug */,
+				24AEA48A1E0B78B700273FEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24AEA48B1E0B78B700273FEB /* Build configuration list for PBXNativeTarget "GetWildAndSushiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24AEA48C1E0B78B700273FEB /* Debug */,
+				24AEA48D1E0B78B700273FEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24AEA48E1E0B78B700273FEB /* Build configuration list for PBXNativeTarget "GetWildAndSushiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24AEA48F1E0B78B700273FEB /* Debug */,
+				24AEA4901E0B78B700273FEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24AEA42F1E0B78B600273FEB /* Project object */;
+}
