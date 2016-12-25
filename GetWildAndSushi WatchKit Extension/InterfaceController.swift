@@ -53,9 +53,9 @@ class InterfaceController: WKInterfaceController {
     func send(){
         if (WCSession.default().isReachable) {
             if isRotate {
-                WCSession.default().sendMessage(["Get": "Wild"], replyHandler: nil, errorHandler: nil)
+                WCSession.default().sendMessage(["Get": "Wild"], replyHandler: {_ in}, errorHandler: nil)
             } else {
-                WCSession.default().sendMessage(["Get": "Sushi"], replyHandler: nil, errorHandler: nil)
+                WCSession.default().sendMessage(["Get": "Sushi"], replyHandler: {_ in}, errorHandler: nil)
             }
         }
     }
